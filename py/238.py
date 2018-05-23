@@ -7,7 +7,7 @@ class Solution:
         size = len(nums)
         output = [1] * size
         left = 1
-        for x in range(size -1):
+        for x in range(size - 1):
             left *= nums[x]
             output[x+1] *= left
         right = 1
