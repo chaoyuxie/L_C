@@ -5,4 +5,4 @@ class Solution:
         :type target: int
         :rtype: int
         """
-        return len([x for x in nums if x<target])
+        return len([x for x in nums if x < target])
