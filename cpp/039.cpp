@@ -10,7 +10,7 @@ class Sloution(){
 
     void dfs(vector<int> &candidates, int target, vector<int> curr, size_t index, vector<vector<int>> &result)
     {
-        if (!target)
+        if (target == 0)
         {
             result.push_back(curr);
             return;
